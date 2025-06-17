@@ -1,20 +1,20 @@
 # #list Dictionary( Array object)
-# student=[
-#     {'name':'sreydoeurn','class':'2026B'},
-#     {'name':'sokkeang','class':'2026B'},
-#     {'name':'darika','class':'2026C'},
-#     {'name':'king','class':'2026C'},
-#     {'name':'visa','class':'2026A'},
-#     {'name':'Seavmey','class':'2026A'}
-#         ]
-# print(student[5])
-# print(student[2]['name'])
-# for i in range(len(student)):
-#     print((student[i]['name'] ))
-# for i in range(len(student)):
-#     print((student[i]['class']))
-# for i in range(len(student)):
-#     print(student[i]['name'],student[i]['class'])
+student=[
+    {'name':'sreydoeurn','class':'2026B'},
+    {'name':'sokkeang','class':'2026B'},
+    {'name':'darika','class':'2026C'},
+    {'name':'king','class':'2026C'},
+    {'name':'visa','class':'2026A'},
+    {'name':'Seavmey','class':'2026A'}
+        ]
+print(student[5])
+print(student[2]['name'])
+for i in range(len(student)):
+    print((student[i]['name'] ))
+for i in range(len(student)):
+    print((student[i]['class']))
+for i in range(len(student)):
+    print(student[i]['name'],student[i]['class'])
 #q1
 fruits=[
     {'name':'apple','qty':4,'prize':2,"in_stock":True},
